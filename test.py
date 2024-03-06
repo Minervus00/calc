@@ -14,3 +14,7 @@ class TestAddition(unittest.TestCase):
 
     def test_entiers(self):
         self.assertEqual(add(5, 7), 12)
+
+
+if __name__ == "__main__":
+    unittest.main()
